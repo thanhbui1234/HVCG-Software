@@ -29,4 +29,4 @@ const Next = () => {
   var anh = document.getElementById("img-banner");
   anh.src = img[index].src;
 };
-// window.onload(auto());
+window.onload(auto());
