@@ -15,18 +15,70 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav class="nav-bả"></nav>
+    <header class="header-container">
+      <nav class="nav-bar">
+        <i id="bar" class="fa-solid fa-bars bar-icon"></i>
+        <img class="img-logo" width="100px" src="./imgs/log.png" alt="" />
+        <ul id="menu">
+          <li><a href="">TRANG CHỦ</a></li>
+          <li><a href="">GIỚI THIỆU</a></li>
+          <li>
+            <a href="">Dự án <i class="fa-solid fa-chevron-down"></i></a>
+          </li>
+          <li><a href="">CÔNG TRÌNH THỰC TẾ</a></li>
+          <li><a href="">BẢNG GIÁ</a></li>
+          <li><a href="">LIÊN HỆ</a></li>
+          <li class="li">
+            <i class="fa-solid search fa-magnifying-glass"></i>
+          </li>
+        </ul>
+      </nav>
+
       <img id="img-banner" src="./imgs/banner1.jpg" alt="" />
       <button class="watch-more">XEM THÊM</button>
       <i onclick="Next()" class="fa-solid btn-next fa-angle-right"></i>
       <i onclick="Previous()" class="fa-solid btn-previous fa-angle-left"></i>
     </header>
     <div class="content">
-      <section>
-        <div class="knowledge-avahome"></div>
-        <div class="banner-avahome"></div>
-      </section>
+      <div class="container-avahome">
+        <div class="about-avahome">
+          <h1 class="knowledge-avahome">
+            <span style="font-weight: bold">KIẾN TRÚC</span>
+            <span style="color: #fa4d09">AVAHOME</span>
+          </h1>
+          <p class="content-avahome">
+            ĐƠN VỊ THIẾT KẾ KIẾN TRÚC VÀ XÂY DỰNG HÀNG ĐẦU CỦA XU HƯỚNG KIẾN
+            TRÚC HIỆN ĐẠI
+          </p>
+          <button class="watch-more2">XEM THÊM</button>
+        </div>
+
+        <div class="banner-avahome">
+          <div class="">
+            <img class="img-child1" src="./imgs/kientruc1.jpg" alt="" />
+            <div class="content-banner-avahome1">
+              <h1>Công trinh</h1>
+              <p>THIẾT KẾ BIỆT THỰ</p>
+            </div>
+          </div>
+          <div>
+            <img class="img-child2" src="./imgs/kientruc2.jpg" alt="" />
+
+            <span class="content-banner-avahome2">
+              <h1>KIẾN TRÚC</h1>
+              <p>THIẾT KẾ NHÁ PHỐ</p>
+            </span>
+          </div>
+          <div>
+            <img class="img-child" src="./imgs/kientruc3.jpg" alt="" />
+            <div class="content-banner-avahome">
+              <h1>NỘI THẤT</h1>
+              <p>THIẾT KẾ NỘI THẤT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section class="modern-vila"></section>
       <section class="architecture"></section>
       <section class="interior"></section>
@@ -39,6 +91,7 @@
     </div>
 
     <div class="working-process"></div>
+
     <footer>
       <div class="warp-footer">
         <div class="about"></div>

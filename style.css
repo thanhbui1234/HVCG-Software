@@ -133,10 +133,53 @@ table {
   object-fit: cover;
   position: relative;
 }
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  /* background: #000; */
+  top: 0%;
+  left: 40%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+}
 
+#menu {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  /* width: 80%; */
+  position: absolute;
+  top: 150px;
+  left: -500%;
+  transition: all 1s ease-in-out;
+}
+
+#menu.active {
+  padding: 30px;
+  background-color: #f7f7f7;
+  top: 50;
+  left: -40%;
+}
+#menu li a:hover {
+  color: red;
+  cursor: pointer;
+}
+#menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.bar-icon {
+  cursor: pointer;
+  position: absolute;
+  left: -30%;
+  top: 30%;
+  font-size: 30px;
+}
 .watch-more {
   top: 50%;
-  left: 50%;
+  left: 40%;
   width: 120px;
   height: 50px;
   position: absolute;
@@ -157,7 +200,7 @@ table {
   border-radius: 50%;
   padding: 10px 20px;
   top: 50%;
-  left: 20%;
+  left: 0%;
   font-size: 20px;
   position: absolute;
   color: white;
@@ -173,8 +216,134 @@ table {
   border-radius: 50%;
   padding: 10px 20px;
   top: 50%;
-  right: 2%;
+  right: 0%;
   font-size: 20px;
   position: absolute;
   color: white;
+}
+.container-avahome {
+  padding-top: 100px;
+  height: 450px;
+}
+.knowledge-avahome {
+  padding: 30px 20px 60px;
+  font-size: 50px;
+  line-height: 60px;
+}
+.content-avahome {
+  padding: 0 20px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.watch-more2 {
+  width: 100px;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 20px 30px;
+}
+.watch-more2:hover {
+  color: white;
+  background-color: #fa4d09;
+}
+.banner-avahome {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.banner-avahome img {
+  width: 100%;
+  height: 500px;
+}
+
+.img-child1 {
+  position: relative;
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .nav-bar {
+    left: 1%;
+    gap: 50px;
+  }
+  .navbar-active {
+    background-color: #fff;
+    opacity: 90%;
+  }
+  #menu {
+    flex-direction: row;
+    position: sticky;
+    flex-direction: row;
+    gap: 16px;
+    display: flex;
+  }
+  .img-logo {
+    width: 100px;
+  }
+  #menu li {
+    line-height: 30px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  #menu li {
+    line-height: 100px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+  }
+}
+/* pc */
+@media screen and (min-width: 1025px) {
+  .navbar-active {
+    background-color: #fff;
+    opacity: 90%;
+  }
+  .about-avahome {
+    padding: 50px 450px 80px;
+  }
+  .watch-more2 {
+    margin-top: 50px;
+    width: 120px;
+    height: 50px;
+  }
+  .content-avahome {
+    font-size: 20px;
+  }
+  .watch-more {
+    /* padding-top: 100px; */
+    left: 50%;
+  }
+  #bar {
+    display: none;
+  }
+  .nav-bar {
+    left: 0;
+    padding-left: 300px;
+    gap: 60px;
+  }
+  #menu {
+    flex-direction: row;
+    position: sticky;
+    gap: 50px;
+    display: flex;
+  }
+  #menu li {
+    font-style: 0.8em;
+    text-transform: uppercase;
+  }
+
+  #menu li {
+    z-index: 1;
+    line-height: 80px;
+    font-family: "Raleway", sans-serif;
+  }
+  .active-li a {
+    color: black;
+  }
+
+  .banner-avahome {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
