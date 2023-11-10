@@ -119,6 +119,9 @@ q:after {
   content: "";
   content: none;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -161,12 +164,13 @@ table {
   background-color: #f7f7f7;
   top: 50;
   left: -40%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#menu li a:hover {
+#menu > li a:hover {
   color: red;
   cursor: pointer;
 }
-#menu li a {
+#menu > li a {
   text-decoration: none;
   color: black;
 }
@@ -257,6 +261,7 @@ table {
   grid-template-columns: 1fr;
 }
 .banner-avahome img {
+  cursor: pointer;
   width: 100%;
   height: 500px;
 }
@@ -264,14 +269,37 @@ table {
 .img-child1 {
   position: relative;
 }
-
 .modern-vila {
   top: 1510px;
   position: relative;
   width: 100%;
   height: 300px;
 }
+.architect {
+  top: 3350px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.interior {
+  top: 5200px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
 .modern-vila h1 {
+  text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 120px;
+}
+.architect h1 {
+  text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 120px;
+}
+.interior h1 {
   text-align: center;
   font-size: 50px;
   line-height: 60px;
@@ -288,12 +316,6 @@ table {
   height: 200px;
 }
 
-.col-mordern-vila img:hover {
-  /* object-fit: scale-down; */
-  width: 100%;
-  transform: scale(0.9);
-  transition: all 1s ease-in-out;
-}
 .content-banner-avahome1 {
   position: absolute;
   top: 40%;
@@ -334,6 +356,363 @@ table {
   margin: 20px 20px 0px 0px;
   font-size: 28px;
 }
+.title-child-mordenr-vila1 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila2 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila3 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila4 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila5 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila6 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila7 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila8 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila9 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila10 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila11 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila12 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila13 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila14 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila15 {
+  display: none;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 50%;
+  left: 10%;
+}
+.title-child-mordenr-vila h2 {
+  line-height: 31px;
+  font-size: 30px;
+}
+.col-mordern-vila > div {
+  position: relative;
+}
+.title-child-mordenr-vila p {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.bthd1:hover .title-child-mordenr-vila1 {
+  display: block;
+  top: 20%;
+}
+.btht2:hover .title-child-mordenr-vila2 {
+  display: block;
+  top: 20%;
+}
+.btht3:hover .title-child-mordenr-vila3 {
+  display: block;
+  top: 20%;
+}
+.btht4:hover .title-child-mordenr-vila4 {
+  display: block;
+  top: 20%;
+}
+.btht5:hover .title-child-mordenr-vila5 {
+  display: block;
+  top: 20%;
+}
+.btht6:hover .title-child-mordenr-vila6 {
+  display: block;
+  top: 20%;
+}
+.btht7:hover .title-child-mordenr-vila7 {
+  display: block;
+  top: 20%;
+}
+.btht8:hover .title-child-mordenr-vila8 {
+  display: block;
+  top: 20%;
+}
+.btht9:hover .title-child-mordenr-vila9 {
+  display: block;
+  top: 20%;
+}
+.btht10:hover .title-child-mordenr-vila10 {
+  display: block;
+  top: 20%;
+}
+.btht11:hover .title-child-mordenr-vila11 {
+  display: block;
+  top: 20%;
+}
+.btht12:hover .title-child-mordenr-vila12 {
+  display: block;
+  top: 20%;
+}
+.btht13:hover .title-child-mordenr-vila13 {
+  display: block;
+  top: 20%;
+}
+.btht14:hover .title-child-mordenr-vila14 {
+  display: block;
+  top: 20%;
+}
+.btht15:hover .title-child-mordenr-vila15 {
+  display: block;
+  top: 20%;
+}
+.user {
+  top: 7000px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.user img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.banner-price-list {
+  background-image: url("bannerprice.jpg");
+}
+.design-price-list {
+  position: relative;
+  top: 7060px;
+}
+.design-price-list img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.design-price-list > h1 {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 28%;
+}
+
+.working-process {
+  position: relative;
+  top: 7200px;
+}
+.working-process img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.working-process > h1 {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 28%;
+}
+.table-list-container {
+  top: 7100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* left: 10%; */
+  padding: 0 20px;
+  gap: 20px;
+  position: relative;
+}
+.table-list {
+  border: 1px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  top: 7100px;
+  width: 200px;
+  height: 650px;
+}
+.table-list button {
+  border: none;
+  border-radius: 1%;
+  height: 40px;
+  width: 150px;
+  color: white;
+  background: #fa4d09;
+}
+.table-list .price {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.btn-choose:hover {
+  background-color: black;
+}
+
+.footer {
+  color: white;
+  background-color: #302c2c;
+  /* width: 100%; */
+  height: 750px;
+  position: relative;
+  top: 7300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer .about {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+.contact {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.service {
+  padding: 30px 0px;
+}
+.service ul {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.service h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.popoluar-project h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.img-popular-project {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+}
+.img-popular-project img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.nav-menu {
+  display: none;
+}
+.nav-menu > li:hover {
+  cursor: pointer;
+  color: red;
+}
+#menu > li a:hover {
+  color: red;
+  cursor: pointer;
+}
+.projects:hover .nav-menu {
+  padding-top: 13px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  font-size: 17px;
+}
+
+/* tablet */
 @media (min-width: 740px) and (max-width: 1024px) {
   .nav-bar {
     left: 1%;
@@ -349,6 +728,7 @@ table {
     flex-direction: row;
     gap: 16px;
     display: flex;
+    top: 20px;
   }
   .img-logo {
     width: 100px;
@@ -365,12 +745,24 @@ table {
     left: 40%;
     color: white;
   }
-  #menu li {
-    line-height: 30px;
+  .nav-menu {
+    background-color: #fff;
+    color: black;
+    height: 150px;
+    padding-left: 10px;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .nav-menu li {
+    height: 20px;
+  }
+
+  #menu > li {
+    line-height: 50px;
     font-size: 0.8em;
     text-transform: uppercase;
   }
-  #menu li {
+  #menu > li {
     line-height: 100px;
     font-family: "Raleway", sans-serif;
     color: white;
@@ -379,12 +771,74 @@ table {
     width: 100%;
     height: 250px;
   }
+  .col-mordern-vila h2 {
+    font-size: 30px;
+    line-height: 32px;
+    padding-bottom: 10px;
+  }
+  .col-mordern-vila p {
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 10px;
+  }
+  .architect {
+    top: 3700px;
+  }
+  .interior {
+    top: 5900px;
+  }
+  .user {
+    top: 8000px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .user img {
+    height: 140px;
+    object-fit: fill;
+  }
+  .design-price-list {
+    top: 7860px;
+  }
+  .design-price-list h1 {
+    top: 45%;
+    left: 20%;
+  }
+  .working-process {
+    top: 7960px;
+  }
+  .working-process h1 {
+    top: 45%;
+    left: 20%;
+  }
+
+  .table-list-container {
+    top: 7900px;
+    display: flex;
+  }
+  .footer {
+    padding: 20px 50px;
+    top: 8000px;
+    height: 800px;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .img-popular-project {
+    gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .img-popular-project img {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+  }
 }
+
 /* pc */
 @media screen and (min-width: 1025px) {
   .navbar-active {
     background-color: #fff;
     opacity: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .about-avahome {
     padding: 50px 450px 80px;
@@ -415,12 +869,22 @@ table {
     gap: 50px;
     display: flex;
   }
-  #menu li {
+  .nav-menu {
+    background-color: #fff;
+    height: 150px;
+    padding-left: 10px;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .nav-menu li {
+    height: 20px;
+  }
+  #menu > li {
     font-style: 0.8em;
     text-transform: uppercase;
   }
 
-  #menu li {
+  #menu > li {
     z-index: 1;
     line-height: 80px;
     font-family: "Raleway", sans-serif;
@@ -433,7 +897,7 @@ table {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .modern-vila {
-    top: 700px;
+    top: 600px;
   }
   .content-banner-avahome1 {
     left: 35%;
@@ -445,12 +909,67 @@ table {
     left: 35%;
   }
   .col-mordern-vila {
-    margin: 0px;
-    width: 100%;
-    gap: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 420px;
+    gap: 15px;
+    grid-template-columns: 3fr 3fr 3fr;
   }
   .col-mordern-vila img {
-    height: 434px;
+    object-fit: cover;
+    height: 420px;
+  }
+
+  .col-mordern-vila h2 {
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+  .col-mordern-vila p {
+    font-size: 30px;
+    line-height: 32px;
+    padding-bottom: 10px;
+  }
+  .architect {
+    top: 2800px;
+  }
+  .interior {
+    top: 5000px;
+  }
+  .user {
+    top: 7200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .user img {
+    height: 400px;
+  }
+  .design-price-list {
+    top: 7350px;
+  }
+  .design-price-list h1 {
+    top: 40%;
+    left: 40%;
+  }
+  .working-process {
+    top: 7550px;
+  }
+  .working-process h1 {
+    top: 40%;
+    left: 40%;
+  }
+
+  .table-list-container {
+    margin: 0 500px;
+    gap: 50px;
+    top: 7500px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer {
+    padding: 30px 230px;
+    top: 7600px;
+    height: 450px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .img-popular-project {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
