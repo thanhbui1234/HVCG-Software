@@ -1,7 +1,7 @@
 const barIcon = document.querySelector(".bar-icon");
 const menu = document.querySelector("#menu");
 const navBar = document.querySelector(".nav-bar");
-barIcon.addEventListener("click", function (e) {
+barIcon.addEventListener("click", (e) => {
   menu.classList.toggle("active");
 });
 const handeScroll = () => {
@@ -19,13 +19,13 @@ for (let i = 1; i < 4; i++) {
   img[i].src = "/imgs/banner" + i + ".jpg";
 }
 let index = 0;
-function auto() {
+const auto = () => {
   index++;
   if (index == img.length) index = 1;
   let anh = document.getElementById("img-banner");
   anh.src = img[index]?.src;
   t = setTimeout("auto()", 5000);
-}
+};
 const Previous = () => {
   index--;
   if (index < 0) index = img.length;
@@ -39,6 +39,6 @@ const Next = () => {
   anh.src = img[index]?.src;
 };
 
-window.addEventListener("load", function () {
+window.addEventListener("load", () => {
   auto();
 });

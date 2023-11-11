@@ -195,7 +195,6 @@ table {
   border: 1px;
   cursor: pointer;
 }
-
 .watch-more:hover {
   color: white;
   background-color: #fa4d09;
@@ -210,12 +209,11 @@ table {
   position: absolute;
   color: white;
 }
-.btn-previous:hover {
-  background-color: aqua;
-}
+.btn-previous:hover,
 .btn-next:hover {
   background-color: aqua;
 }
+
 .btn-next {
   border: 1px solid white;
   border-radius: 50%;
@@ -226,9 +224,9 @@ table {
   position: absolute;
   color: white;
 }
-.container-avahome {
-  padding-top: 100px;
-  height: 450px;
+
+.about-avahome {
+  padding: 100px 0px 150px;
 }
 .knowledge-avahome {
   padding: 30px 20px 60px;
@@ -266,45 +264,23 @@ table {
   height: 500px;
 }
 
-.img-child1 {
-  position: relative;
-}
-.modern-vila {
-  top: 1510px;
-  position: relative;
-  width: 100%;
-  height: 300px;
-}
 .architect {
-  top: 3350px;
-  position: relative;
   width: 100%;
   height: 300px;
 }
 .interior {
-  top: 5200px;
-  position: relative;
   width: 100%;
   height: 300px;
 }
-.modern-vila h1 {
+.title-mordenr-vila,
+.title-architect,
+.title-interior {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 60px;
-  margin-bottom: 120px;
+  margin: 70px 0px;
 }
-.architect h1 {
-  text-align: center;
-  font-size: 50px;
-  line-height: 60px;
-  margin-bottom: 120px;
-}
-.interior h1 {
-  text-align: center;
-  font-size: 50px;
-  line-height: 60px;
-  margin-bottom: 120px;
-}
+
 .col-mordern-vila {
   margin: 0 10px;
   display: grid;
@@ -316,78 +292,30 @@ table {
   height: 200px;
 }
 
-.content-banner-avahome1 {
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  /* transform: translate(40, 50); */
-}
-.content-banner-avahome1 h1 {
-  font-size: 50px;
-}
-.content-banner-avahome1 p {
-  margin: 20px 20px 0px 0px;
-  font-size: 28px;
-}
-.content-banner-avahome2 {
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  /* transform: translate(40, 50); */
-}
-.content-banner-avahome2 h1 {
-  font-size: 50px;
-}
-.content-banner-avahome2 p {
-  margin: 20px 20px 0px 0px;
-  font-size: 28px;
-}
+.content-banner-avahome1,
+.content-banner-avahome2,
 .content-banner-avahome3 {
   position: absolute;
   top: 40%;
   left: 20%;
   /* transform: translate(40, 50); */
 }
+.content-banner-avahome1 h1,
+.content-banner-avahome2 h1,
 .content-banner-avahome3 h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
-
+.content-banner-avahome1 p,
+.content-banner-avahome2 p,
 .content-banner-avahome3 p {
   margin: 20px 20px 0px 0px;
   font-size: 28px;
 }
-.title-child-mordenr-vila1 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila2 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila3 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila4 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
+
+.title-child-mordenr-vila1,
+.title-child-mordenr-vila2,
+.title-child-mordenr-vila3,
+.title-child-mordenr-vila4,
 .title-child-mordenr-vila5 {
   display: none;
   position: absolute;
@@ -396,38 +324,10 @@ table {
   top: 50%;
   left: 10%;
 }
-.title-child-mordenr-vila6 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila7 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila8 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila9 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
+.title-child-mordenr-vila6,
+.title-child-mordenr-vila7,
+.title-child-mordenr-vila8,
+.title-child-mordenr-vila9,
 .title-child-mordenr-vila10 {
   display: none;
   position: absolute;
@@ -436,38 +336,10 @@ table {
   top: 50%;
   left: 10%;
 }
-.title-child-mordenr-vila11 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila12 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila13 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
-.title-child-mordenr-vila14 {
-  display: none;
-  position: absolute;
-  color: white;
-  font-weight: bold;
-  top: 50%;
-  left: 10%;
-}
+.title-child-mordenr-vila11,
+.title-child-mordenr-vila12,
+.title-child-mordenr-vila13,
+.title-child-mordenr-vila14,
 .title-child-mordenr-vila15 {
   display: none;
   position: absolute;
@@ -476,6 +348,7 @@ table {
   top: 50%;
   left: 10%;
 }
+
 .title-child-mordenr-vila h2 {
   line-height: 31px;
   font-size: 30px;
@@ -487,71 +360,36 @@ table {
   padding-top: 10px;
   font-size: 20px;
 }
-.bthd1:hover .title-child-mordenr-vila1 {
-  display: block;
-  top: 20%;
-}
-.btht2:hover .title-child-mordenr-vila2 {
-  display: block;
-  top: 20%;
-}
-.btht3:hover .title-child-mordenr-vila3 {
-  display: block;
-  top: 20%;
-}
-.btht4:hover .title-child-mordenr-vila4 {
-  display: block;
-  top: 20%;
-}
+.bthd1:hover .title-child-mordenr-vila1,
+.btht2:hover .title-child-mordenr-vila2,
+.btht3:hover .title-child-mordenr-vila3,
+.btht4:hover .title-child-mordenr-vila4,
 .btht5:hover .title-child-mordenr-vila5 {
   display: block;
   top: 20%;
 }
-.btht6:hover .title-child-mordenr-vila6 {
-  display: block;
-  top: 20%;
-}
-.btht7:hover .title-child-mordenr-vila7 {
-  display: block;
-  top: 20%;
-}
-.btht8:hover .title-child-mordenr-vila8 {
-  display: block;
-  top: 20%;
-}
-.btht9:hover .title-child-mordenr-vila9 {
-  display: block;
-  top: 20%;
-}
+
+.btht6:hover .title-child-mordenr-vila6,
+.btht7:hover .title-child-mordenr-vila7,
+.btht8:hover .title-child-mordenr-vila8,
+.btht9:hover .title-child-mordenr-vila9,
 .btht10:hover .title-child-mordenr-vila10 {
   display: block;
   top: 20%;
 }
-.btht11:hover .title-child-mordenr-vila11 {
-  display: block;
-  top: 20%;
-}
-.btht12:hover .title-child-mordenr-vila12 {
-  display: block;
-  top: 20%;
-}
-.btht13:hover .title-child-mordenr-vila13 {
-  display: block;
-  top: 20%;
-}
-.btht14:hover .title-child-mordenr-vila14 {
-  display: block;
-  top: 20%;
-}
+.btht11:hover .title-child-mordenr-vila11,
+.btht12:hover .title-child-mordenr-vila12,
+.btht13:hover .title-child-mordenr-vila13,
+.btht14:hover .title-child-mordenr-vila14,
 .btht15:hover .title-child-mordenr-vila15 {
   display: block;
   top: 20%;
 }
+
 .user {
-  top: 7000px;
-  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 100px 0px;
 }
 .user img {
   width: 100%;
@@ -561,48 +399,34 @@ table {
 .banner-price-list {
   background-image: url("bannerprice.jpg");
 }
-.design-price-list {
-  position: relative;
-  top: 7060px;
-}
-.design-price-list img {
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
-}
-.design-price-list > h1 {
-  font-size: 50px;
-  color: white;
-  position: absolute;
-  top: 35%;
-  left: 28%;
-}
-
+.design-price-list,
 .working-process {
   position: relative;
-  top: 7200px;
+  margin: 50px 0px;
 }
+.design-price-list img,
 .working-process img {
   object-fit: cover;
   width: 100%;
   height: 300px;
 }
+.design-price-list > h1,
 .working-process > h1 {
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   position: absolute;
-  top: 35%;
-  left: 28%;
+  top: 50%;
+  left: 10%;
+  transform: scale(50 50);
 }
+
 .table-list-container {
-  top: 7100px;
+  margin-top: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  /* left: 10%; */
   padding: 0 20px;
   gap: 20px;
-  position: relative;
 }
 .table-list {
   border: 1px;
@@ -612,7 +436,6 @@ table {
   gap: 20px;
   align-items: center;
   text-align: center;
-  top: 7100px;
   width: 200px;
   height: 650px;
 }
@@ -634,12 +457,13 @@ table {
 }
 
 .footer {
+  margin-top: 50px;
+  padding: 0 10px;
   color: white;
   background-color: #302c2c;
   /* width: 100%; */
   height: 750px;
-  position: relative;
-  top: 7300px;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -746,6 +570,7 @@ table {
     color: white;
   }
   .nav-menu {
+    position: absolute;
     background-color: #fff;
     color: black;
     height: 150px;
@@ -781,14 +606,9 @@ table {
     line-height: 32px;
     padding-bottom: 10px;
   }
-  .architect {
-    top: 3700px;
-  }
-  .interior {
-    top: 5900px;
-  }
+
   .user {
-    top: 8000px;
+    margin: 70px 0px;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
@@ -796,28 +616,22 @@ table {
     height: 140px;
     object-fit: fill;
   }
-  .design-price-list {
-    top: 7860px;
-  }
+
   .design-price-list h1 {
     top: 45%;
-    left: 20%;
+    left: 30%;
   }
-  .working-process {
-    top: 7960px;
-  }
+
   .working-process h1 {
     top: 45%;
     left: 20%;
   }
-
   .table-list-container {
-    top: 7900px;
     display: flex;
   }
+
   .footer {
     padding: 20px 50px;
-    top: 8000px;
     height: 800px;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
@@ -870,6 +684,7 @@ table {
     display: flex;
   }
   .nav-menu {
+    position: absolute;
     background-color: #fff;
     height: 150px;
     padding-left: 10px;
@@ -896,26 +711,21 @@ table {
   .banner-avahome {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .modern-vila {
-    top: 600px;
-  }
-  .content-banner-avahome1 {
-    left: 35%;
-  }
-  .content-banner-avahome2 {
-    left: 35%;
-  }
+
+  .content-banner-avahome1,
+  .content-banner-avahome2,
   .content-banner-avahome3 {
-    left: 35%;
+    left: 31%;
   }
+
   .col-mordern-vila {
-    margin: 0 420px;
-    gap: 15px;
-    grid-template-columns: 3fr 3fr 3fr;
+    margin: 0 250px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .col-mordern-vila img {
     object-fit: cover;
-    height: 420px;
+    height: 332px;
+    width: 335px;
   }
 
   .col-mordern-vila h2 {
@@ -928,43 +738,33 @@ table {
     line-height: 32px;
     padding-bottom: 10px;
   }
-  .architect {
-    top: 2800px;
-  }
-  .interior {
-    top: 5000px;
-  }
+
   .user {
-    top: 7200px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   .user img {
     height: 400px;
   }
   .design-price-list {
-    top: 7350px;
+    display: flex;
   }
   .design-price-list h1 {
     top: 40%;
     left: 40%;
   }
-  .working-process {
-    top: 7550px;
-  }
+
   .working-process h1 {
     top: 40%;
     left: 40%;
   }
 
   .table-list-container {
-    margin: 0 500px;
+    margin: 150px 250px;
     gap: 50px;
-    top: 7500px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   .footer {
     padding: 30px 230px;
-    top: 7600px;
     height: 450px;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
