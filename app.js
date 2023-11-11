@@ -5,11 +5,8 @@ barIcon.addEventListener("click", (e) => {
   menu.classList.toggle("active");
 });
 const handeScroll = () => {
-  if (window.scrollY > 700) {
-    navBar.classList.add("navbar-active");
-  } else {
-    navBar.classList.remove("navbar-active");
-  }
+  navBar.classList.remove("navbar-active");
+  if (window.scrollY > 700) navBar.classList.add("navbar-active");
 };
 window.addEventListener("scroll", handeScroll);
 
